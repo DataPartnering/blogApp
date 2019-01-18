@@ -8,7 +8,7 @@
  //Mongoose/Model Config
  //mongoose.connect("mongodb://localhost/blog_app");
  
- mongoose.connect("mongodb://jovan:Jovandev55@ds143604.mlab.com:43604/jovansblogapp");
+ mongoose.connect("mongodb://Jovan:Jovandev55@ds143604.mlab.com:43604/jovansblogapp");
  
  app.set("view engine","ejs");
  app.use(express.static("public"));
