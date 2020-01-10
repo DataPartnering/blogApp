@@ -99,8 +99,12 @@ app.delete("/blogs/:id", function(req, res){
   }
  })
 })
- app.listen(process.env.PORT,process.env.IP, function(){
-          console.log("server is running")
+
+
+const PORT = process.env.PORT || 3000;
+
+ app.listen(PORT,process.env.IP, function(){
+          console.log("server is running on port 3000")
  });
  
  
